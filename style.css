@@ -1,16 +1,27 @@
 
 body{
     font-family: 'Poppins', sans-serif;
+    width: 100%;  
+    background-image: url("images/top-banner2.png");       
+    background-size: cover;
+    background-attachment: fixed; 
 }
 
-.intro{
-    width: 90%;
-    margin: 0 auto;
+.top_banner{
+    width: 100%;
 }
-.intro h1{
-    
-    font-weight: 700;
+
+.top_banner h1{    
     font-size: 60px;
+    font-weight: 700;
+    color:blue;
+    text-align: center;
+    
+    
+}
+h1{
+    font-size: 40px;
+    font-weight: 700;
     color:blue;
 }
 h2{
@@ -21,11 +32,25 @@ h2{
 p{
     color: dimgrey;
 }
-.half-width{
-    width: 40%;
+.half_width{
+    width: 45%;
     float: left;
-    margin-left: 10px;
+    margin-left: 20px;
 }
-.half-width img{
+.half_width img{
 width: 60%;
+}
+.working{
+    width: 100%;
+}
+.working h1{
+    text-align: center;
+    display: inline-block;
+    margin-left: 2%;
+    
+}
+.qurter_width{
+    width: 30%;
+    float: left;
+    margin-left: 40px;
 }
