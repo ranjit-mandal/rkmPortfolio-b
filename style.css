@@ -40,6 +40,16 @@ p{
 .half_width img{
 width: 60%;
 }
+
+.half_width a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    background-image: linear-gradient(90deg, cyan, blue);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
 .working{
     width: 100%;
 }
