@@ -54,3 +54,8 @@ width: 60%;
     float: left;
     margin-left: 40px;
 }
+footer{
+    text-align: center;
+    background-color: blue;
+    color: white;
+}
